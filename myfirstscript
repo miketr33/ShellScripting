@@ -1,0 +1,5 @@
+#1/usr/bin/env bash
+
+NAME=${1?Error: no name given}
+NAME2=${2:-friend}
+echo "Hello $NAME and $NAME2!"
